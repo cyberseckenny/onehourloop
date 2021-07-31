@@ -9,7 +9,7 @@ setup(
     description='Combine audio clips and GIFs to create video loops.',
     url='https://github.com/cyberseckenny/onehourloop',
     author='Kenny',
-    license='GNU',
+    license='GPL',
     packages=['onehourloop'],
     install_requires=install_requires,
     classifiers=[
