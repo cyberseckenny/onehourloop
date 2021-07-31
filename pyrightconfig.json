@@ -1,0 +1,13 @@
+{
+  "include": [
+    "onehourloop"
+  ],
+
+  "pythonVersion": "3.9",
+  "reportUntypedFunctionDecorator": "warning",
+  "reportUnknownMemberType": "none",
+  "reportMissingTypeStubs": false,
+  "reportMissingModuleSource": "none",
+  "reportUnknownParameterType": "warning",
+  "reportUnknownVariableType": "warning"
+}
