@@ -15,7 +15,7 @@ def main(audio_file: str, gif_file: str):
         has_errors = True
     elif not audio_file.endswith('.mp3'):
         message(
-            f'{Fore.LIGHTRED_EX}Only audio files with the .mp3 file format are supported.')
+            f'{Fore.LIGHTRED_EX}Only audio files with the mp3 file format are supported.')
         has_errors = True
 
     if not exists(gif_file):
@@ -24,7 +24,7 @@ def main(audio_file: str, gif_file: str):
         has_errors = True
     elif not gif_file.endswith('.gif'):
         message(
-            f'{Fore.LIGHTRED_EX}You must specify a valid .gif file.')
+            f'{Fore.LIGHTRED_EX}You must specify a valid gif file.')
         has_errors = True
 
     if has_errors:
